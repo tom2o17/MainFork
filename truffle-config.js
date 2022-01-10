@@ -1,4 +1,8 @@
 /**
+ * 
+ * ganache-cli --fork https://mainnet.infura.io/v3/4d1481d1a4c04cb4a9646260001f072f --unlock 0xAd8037158e75cB6e2dA2aaAc5250E2aeD501f1d3
+ * 
+ * 
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
  * compilation and testing. Uncomment the ones you need or modify
@@ -44,7 +48,7 @@ module.exports = {
     },
     test: {
       host: "127.0.0.1",
-      port: 7545,
+      port: 8545,
       network_id: "*"
     },
     // Useful for testing. The `development` name is special - truffle uses it by default
