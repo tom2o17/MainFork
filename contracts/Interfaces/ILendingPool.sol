@@ -3,6 +3,7 @@
 pragma solidity =0.8.9;
 
 import "./ILendingPoolAddressesProvider.sol";
+import {DataTypes} from './DataTypes.sol';
 
 interface ILendingPool {
   event Deposit(
@@ -161,4 +162,5 @@ interface ILendingPool {
   function getAddressesProvider() external view returns (ILendingPoolAddressesProvider);
   function setPause(bool val) external;
   function paused() external view returns (bool);
+  function getReserveData(address asset) external view returns (DataTypes.ReserveData memory);
 }

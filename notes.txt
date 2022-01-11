@@ -1,0 +1,13 @@
+ Contract: AAVE
+18447682555950121885754,  // Total Liquidity
+1067037668682704588320344750, //available liquidity 
+1093645678393875624459125626, // total amount borrowed at a fixed rate 
+29839883917673938066383749, // total amount borrowed on a variable rate 
+37772632310064603114976043, // depositors APR (in rays) also known as liquidity rate 
+108886316155032301557488021, // current fixed borrow rate (in rays) | VariableBorrowRate
+1641847654, //
+0xBcca60bB61934080951369a648Fb03DF4F96263C,
+0xE4922afAB0BbaDd8ab2a88E0C79d884Ad337fcA6,
+0x619beb58998eD2278e08620f97007e1116D5D25b,
+0x8Cae0596bC1eD42dc3F04c4506cfe442b3E74e27,
+19
